@@ -1,4 +1,3 @@
-package PedidoChallange;
 
 public class ItemPedido {
     private Produto produto;
@@ -10,7 +9,7 @@ public class ItemPedido {
     }
 
     public Produto getProduto() {
-        return produto;
+        return this.produto;
     }
 
     public void setProduto(Produto produto) {
@@ -18,7 +17,7 @@ public class ItemPedido {
     }
 
     public Integer getQuantidade() {
-        return quantidade;
+        return this.quantidade;
     }
 
     public void setQuantidade(Integer quantidade) {

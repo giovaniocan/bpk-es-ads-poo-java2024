@@ -1,4 +1,3 @@
-package PedidoChallange;
 
 public class Produto {
     private String nome;
@@ -10,10 +9,10 @@ public class Produto {
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
     public Double getPreco() {
-        return preco;
+        return this.preco;
     }
 }

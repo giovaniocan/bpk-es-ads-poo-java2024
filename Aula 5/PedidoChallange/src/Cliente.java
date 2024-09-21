@@ -1,5 +1,3 @@
-package PedidoChallange;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,18 +9,18 @@ public class Cliente {
     public Cliente(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
-        this.enderecos = new ArrayList<>();
+        this.enderecos = new ArrayList();
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
 
     public String getCpf() {
-        return cpf;
+        return this.cpf;
     }
 
-    public void addEndereco(Endereco endereco){
+    public void addEndereco(Endereco endereco) {
         this.enderecos.add(endereco);
     }
 }

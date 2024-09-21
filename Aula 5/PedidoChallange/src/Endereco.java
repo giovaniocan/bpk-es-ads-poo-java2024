@@ -1,5 +1,3 @@
-package PedidoChallange;
-
 public class Endereco {
     private String cidade;
     private String rua;
@@ -13,7 +11,7 @@ public class Endereco {
     }
 
     public String getCidade() {
-        return cidade;
+        return this.cidade;
     }
 
     public void setCidade(String cidade) {
@@ -21,7 +19,7 @@ public class Endereco {
     }
 
     public String getRua() {
-        return rua;
+        return this.rua;
     }
 
     public void setRua(String rua) {
@@ -29,11 +27,11 @@ public class Endereco {
     }
 
     public Integer getNumero() {
-        return numero;
+        return this.numero;
     }
 
     public Cliente getCliente() {
-        return cliente;
+        return this.cliente;
     }
 
     public void setCliente(Cliente cliente) {
